@@ -146,16 +146,19 @@ header .logo {
 }
 header nav ul {
   display: flex;
-  padding: 13px 0;
 }
 header nav ul li a {
   color: #3f5d45;
   text-decoration: none;
   display: block;
-  padding-right: 12px;
+  padding: 13px 6px;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
+}
+header nav ul li :hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
 }
 
 main .content {
@@ -192,4 +195,8 @@ footer ul li a {
   text-decoration: none;
   display: block;
   padding: 16px 12px;
+}
+footer ul li :hover {
+  color: #3f5d45;
+  background-color: #fff;
 }/*# sourceMappingURL=all.css.map */
